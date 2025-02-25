@@ -1,5 +1,5 @@
 #Usuario (OBS:trasformar em obj)
-nome = "LiraDev"
+nome = "lira developer"
 idade = 12
 email = "LiraDev@gmail.com"
 login = "12ab45"
@@ -32,3 +32,11 @@ print(carro[2]) #Se Procura Pelos Indices
 print(email[0:7]) #: indica q ele ira pegar os carcteres do premniro indice ate o outro.
 print(carro[:5])
 print(email[7:])
+
+#Trocar um Pedaço do texto
+NewEmail = email.replace("gmail.com","hotmail.com")
+print(NewEmail)
+#CoretorDePortuguesKKKKK
+print(nome.capitalize())
+nome = nome.title()
+print(nome)
