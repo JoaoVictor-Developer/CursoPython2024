@@ -1,5 +1,5 @@
 #Usuario (OBS:trasformar em obj)
-nome = "Usuario002"
+nome = "LiraDev"
 idade = 12
 email = "LiraDev@gmail.com"
 login = "12ab45"
@@ -25,3 +25,10 @@ print(email)
 #minuscula/lower
 email = email.lower()
 print(email)
+#TamanhoDoTexto
+print(len(nome))
+#Pegar um caracter
+print(carro[2]) #Se Procura Pelos Indices
+print(email[0:7]) #: indica q ele ira pegar os carcteres do premniro indice ate o outro.
+print(carro[:5])
+print(email[7:])
