@@ -23,4 +23,16 @@
 ##print(f"essa foi a primeira venda: {vendas[0]}")
 ##
 #Arrays-objects
+produtos = ["macbookM1","GalaxS23","PCgamer","FoneHyperex","RedragonA"]
+miura = ["sport","sport","sport","sport","saga"]
 
+print(f"o macbookM1 existe: {"macbookM1" in produtos}")
+
+print(produtos)
+produtos.pop(1) #remove pelo indice
+produtos.append("macbookM2")
+produtos.remove("macbookM1")
+print(produtos)
+produtos[-2] = "RedragonB"
+print(miura.count("sport"))
+print(f"ordenada| alfabetica/cresente:{produtos.sort()},Contrario/decrasente:{produtos.sort(reverse=true)}")
